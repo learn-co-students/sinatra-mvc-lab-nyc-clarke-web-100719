@@ -10,7 +10,7 @@ Examples:
 
 Your app will take in a string from a user through a form, convert it to pig latin, and return the string to the user. Using the previous code-along as a guide, get the tests to pass by building out this application. Use the guide below to get you started!
 
-## Instructions
+## aInstructions
 
 1. Build a form to take user input in user_input.erb. Show that form using a `GET` request at `/`.
 
