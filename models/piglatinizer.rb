@@ -1,6 +1,6 @@
-class PigLatinizer
+class PigLatinizer   #create an instance to so we can use the below logic to pig latinize user input word or phrase
 
-    def piglatinize(input)
+    def piglatinize(input)  
         input.split(" ").length == 1 ? piglatinize_word(input) : piglatinize_sentence(input)
     end
 
@@ -26,6 +26,6 @@ class PigLatinizer
     end
 
     def piglatinize_sentence(sentence)
-        sentence.split.collect { |word| piglatinize_word(word) }.join(" ")
+        sentence.split.collect { |word| piglatinize_word(word) }.join(" ") #if user input is sentence split to make array then map/collect over each word in teh array with piglatinize_word helper method THEN join all together into sentence 
     end
 end

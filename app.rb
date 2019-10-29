@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-    get '/' do
+    get '/' do              #page to take in user input
         erb :user_input
     end
 
